@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*----------------------
+General css
+------------------------*/
+ 
+a {
+	text-decoration:none;
+	color:#e63636;
+}
+.btn-default{border-color:#FF1D4D;background: #EA3636;}
+.btn-default:hover{background:#838383; color: #fff; }
+
+/*------------------------
+body css start
+--------------------------*/
+
+body{background:url(../images/body-bg.png);}
+.wrapper{background:url(../images/page-bg.png);}
+
+.header{}
+.slider{height:350px;} 
+
+.navbar{margin-bottom: 0px;border-radius:0px;}
+
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+.regheading{text-align:center;padding:10px; margin:15px 0px 15px 0px; border:2px dotted #FF1D4D;}
+.paddingbottom{padding-bottom: 50px;}
+/*------------------------------------
+custom menu stye
+*/
+.menu{padding-top:30px;padding-bottom: 30px;background: rgba(0,0,0,0.25);}
+.menu ul {}
+.menu ul li{border-bottom: 1px solid #ffccff;}
+.menu ul li a{color:blanchedalmond;font-size: 16px;}
+.menu ul li a:hover{color:red;}
+
+
+
+/*-------------------------------------
+footer css
+---------------------------------------*/
+.footer-wrapper{background: url(../images/panel-bg.png);color:#fff;}
+
+.footerlast{height: 40px;background: #171814;color:#ffc;text-align: center;}
+.lastfooter{margin: 0 auto; padding: 10px;}
+.container{background: #B8C2D4;}
+.welcome{height: 50px; background:rgba(0,0,0,0.50);padding: 16px;color: #EA3636;}
+
+
+
+/*link and border color should be #FF1D4D 
+backgroud of color and some space #1BB093 */
